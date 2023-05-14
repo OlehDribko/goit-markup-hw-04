@@ -359,6 +359,7 @@ margin-top: 8px;
 .customers-section{
     padding-bottom: 120px;
     padding-top: 120px;
+    overflow-x: hidden;
 }
 .customers-title{
     line-height: 1.1;
