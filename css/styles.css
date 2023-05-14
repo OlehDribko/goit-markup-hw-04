@@ -272,13 +272,19 @@ font-weight: 400;
 }
 
 .social-icon-bg:hover{
-    background: #404BBF;
+    background: var(--accent-color);
+}
+.social-icon-bg:focus{
+background: var(--accent-color);
 }
 .social-list-icon{
     fill: var(--icon-color);
 }
 .competencies-bloc{
     flex-basis: calc((100% - 3 * 24px) / 4);
+}
+.social-list-item{
+    gap: 24px;
 }
 
 /* skills */
