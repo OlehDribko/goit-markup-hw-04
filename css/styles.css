@@ -336,6 +336,31 @@ margin-top: 8px;
     
 
 }
+/* COSTOMERS */
+.svg-costomers-icon{
+display: flex;
+    justify-content: center;
+   
+    padding-left: 0px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    width: 168px;
+    height: 88px;
+}
+.svg-customers-list{
+    display: flex;
+        justify-content: center;
+        column-gap: 24px;
+        padding-left: 0px;
+        margin-top: 8px;
+}
+.customers-link{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
 
 /* footer*/
 .foorer-box{
