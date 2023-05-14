@@ -367,13 +367,9 @@ margin-top: 8px;
 display: flex;
     justify-content: center;
 width: calc((100% - 120px) / 6);
-width: 100%;
-height: 100%;
-    padding-left: 0px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    width: 168px;
-    height: 88px;
+height: 88px;
 }
 .svg-customers-list{
     display: flex;
