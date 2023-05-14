@@ -416,6 +416,9 @@ height: 88px;
 .footer-br:hover{
     background: #31D0AA;
 }
+.footer-br:focus{
+    background: #31D0AA;
+}
 .foorer-box-social{
     display: flex;
     align-items: baseline;
@@ -423,7 +426,14 @@ height: 88px;
 }
 .tex-footer-p{
     color: #FFFFFF;
-    padding-bottom: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.box-logo-footer{
+    margin-right: 120px;
+}
+.social-list-footer{
+    gap: 16px;
 }
 /* PORTFOLIO */
 
