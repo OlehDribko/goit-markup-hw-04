@@ -359,7 +359,6 @@ margin-top: 8px;
 .customers-section{
     padding-bottom: 120px;
     padding-top: 120px;
-    overflow-x: hidden;
 }
 .customers-title{
     line-height: 1.1;
@@ -368,8 +367,6 @@ margin-top: 8px;
 display: flex;
     justify-content: center;
 width: calc((100% - 120px) / 6);
-    border: 1px solid #8E8F99;
-    border-radius: 4px;
 height: 88px;
 }
 .svg-customers-list{
