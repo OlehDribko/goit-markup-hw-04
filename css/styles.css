@@ -259,11 +259,19 @@ font-weight: 400;
     width: 264px;
         height: 72px;
 }
+.competencies-conainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
 .icon-list-adv{
 padding-bottom: 24px;
 padding-top: 24px;
-        background: #F4F4FD;
-        border-radius: 4px;
+      
 }
 .social-icon-bg:hover{
     background: #404BBF;
