@@ -389,15 +389,18 @@ height: 88px;
     color: var(--svg-icon-logo);
     border: 1px solid #8e8f99;
     border-radius: 4px;
+    fill: #8E8F99;;
 
 }
 .customers-link:hover{
     color: var(--accent-color) ;
     border-color:var(--accent-color);
+    fill: #404BBF;
 }
 .customers-link:focus{
     color: var(--accent-color);
     border-color: var(--accent-color);
+    fill: #404BBF;
 }
 
 /* footer*/
