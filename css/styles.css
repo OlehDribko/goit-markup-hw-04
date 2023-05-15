@@ -228,6 +228,7 @@ header{
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        margin: 0 auto;
 }
 
 
@@ -318,6 +319,7 @@ background: var(--accent-color);
     padding-top: 120px;
     padding-bottom: 120px;
     background: #F4F4FD;
+    margin: 0 auto;
 }
 .people-img{
     display: flex;
