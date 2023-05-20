@@ -123,8 +123,7 @@ background:var(--accent-color);
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #404bbf;
-        position: relative;
+        color: #4D5AE5;
         }
 .black-logo{
     color:var(--black-logo-titl);
@@ -142,13 +141,14 @@ background:var(--accent-color);
     position: relative;
 }
 .menu-link{
+    position: relative;
     padding: 24px 0;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--black-logo-titl);
+    color: #404bbf;
     transition: color var(--transition-duration-and-funk);
 }
 .menu-link:focus{
