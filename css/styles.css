@@ -62,6 +62,7 @@ button{
        
 }
 .btn-filtr{
+    position: relative;
     font-family: "Roboto", sans-serif;
     padding: 12px 24px;
     border-radius: 4px;
@@ -103,7 +104,7 @@ background:var(--accent-color);
     border: none;
     margin-left: auto;
     margin-right: auto;
-    transition: box-shadow var(), background-color var(--transition-duration-and-funk);
+    transition: background-color var(--transition-duration-and-funk);
 }
 .modal-btm:hover{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 15);
@@ -122,7 +123,8 @@ background:var(--accent-color);
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4D5AE5;
+        color: #404bbf;
+        position: relative;
         }
 .black-logo{
     color:var(--black-logo-titl);
@@ -137,6 +139,7 @@ background:var(--accent-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    position: relative;
 }
 .menu-link{
     padding: 24px 0;
@@ -154,13 +157,25 @@ background:var(--accent-color);
 .menu-link:hover{
     color: var(--accent-color);
 }
+.menu-link::after{
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: var(--accent-color);
+    border-radius: 2px;
+    width: 48px;
+    
+    
+}
 .contacts-link{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    transition: color var(--transition-duration-and-funk), background-color var(--transition-duration-and-funk);
+    transition: color var(--transition-duration-and-funk);
 }
 .contacts-link:hover{
     color: #404bbf;
@@ -295,7 +310,6 @@ font-weight: 400;
 background: var(--accent-color);
 }
 .social-list-icon{
-    transition: color var(--transition-duration-and-funk);
     fill: var(--icon-color);
 }
 .competencies-bloc{
@@ -370,6 +384,7 @@ margin-top: 8px;
     height: 40px;
     border-radius: 50%;
     background-color: #4D5AE5;
+    transition: background-color var(--transition-duration-and-funk);
     
     
 
@@ -407,6 +422,7 @@ height: 88px;
     border: 1px solid #8e8f99;
     border-radius: 4px;
     fill: #8E8F99;;
+    transition: color var(--transition-duration-and-funk), border-color var(--transition-duration-and-funk);
 
 }
 .customers-link:hover{
