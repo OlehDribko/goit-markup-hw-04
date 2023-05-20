@@ -422,7 +422,7 @@ height: 88px;
     border: 1px solid #8e8f99;
     border-radius: 4px;
     fill: #8E8F99;;
-    transition: color var(--transition-duration-and-funk), border-color var(--transition-duration-and-funk);
+    transition: border-color var(--transition-duration-and-funk), color var(--transition-duration-and-funk);
 
 }
 .customers-link:hover{
