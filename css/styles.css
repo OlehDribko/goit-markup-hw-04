@@ -573,6 +573,9 @@ border-top: none;
     transform: translate(-50%, -50%);
 }
 .modal-close-btn{
+    position: absolute;
+    top: 24px;
+    right: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -585,4 +588,9 @@ border-top: none;
         border-radius: 50%;
         
         
+}
+.is-hidden{
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
 }
