@@ -563,6 +563,7 @@ border-top: none;
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity var(--transition-duration-and-funk), visibility var(--transition-duration-and-funk);
+    transition: transform var(--transition-duration-and-funk);
 
 }
 .modal{
@@ -577,7 +578,6 @@ border-top: none;
         0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 4px;
-        
         transition: transform var(--transition-duration-and-funk);
 
 }
@@ -594,8 +594,7 @@ border-top: none;
     background: #E7E9FC;
         border: 1px solid rgba(0, 0, 0, 0.1);
         border-radius: 50%;
-        transition: background-color var(--transition-duration-and-funk), border var(--transition-duration-and-funk)
-        
+        transition: background-color var(--transition-duration-and-funk), border var(--transition-duration-and-funk);
 }
 .modal-close-btn:hover,
 .modal-close-btn:focus{
