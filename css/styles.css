@@ -159,7 +159,10 @@ background:var(--accent-color);
 .menu-link:hover{
     color: var(--accent-color);
 }
-.menu-link::after{
+.head-menu-title{
+    color: #404bbf;
+}
+.head-menu-title::after{
     content:"";
     position: absolute;
     left: 0;
