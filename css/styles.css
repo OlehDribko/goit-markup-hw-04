@@ -606,9 +606,6 @@ border-top: none;
     visibility: hidden;
     pointer-events: none;
 }
-.modal{
-    transition: opacity var(--transition-duration-and-funk), visibility var(--transition-duration-and-funk)
-}
 .modal-close-icon{
     transition: fill var(--transition-duration-and-funk);
 }
